@@ -138,7 +138,6 @@ export default function Home() {
           <div className="text-2"><span>P</span>riyanka <span>B</span>adatiya</div>
           <div className="text-3">{"And I'm a"}
             <p className="line-1 anim-typewriter">{proffesion}</p>
-
           </div>
           <a href="https://github.com/priyabadatiya" target="_blank" rel="noreferrer"  ><I className="fas fab fa-github"></I> Github</a>
         </div>
