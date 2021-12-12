@@ -156,7 +156,7 @@ export default function Home() {
       <meta name="description" content="Web Developer" />
       <meta name="keywords" content="Full Stack, MERN Stack" />
       <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
       <meta name="language" content="English"/>
     </Head>
   </>)
