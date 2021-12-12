@@ -1,3 +1,4 @@
+import Img from "next/image"
 export default function Aboutme(){
     return (
         <section className="about" id="about">
@@ -5,7 +6,7 @@ export default function Aboutme(){
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src="/pb.png" alt="" />
+              <Img src="/pb.png" alt="" />
             </div>
             <div className="column right">
               <div className="text">
