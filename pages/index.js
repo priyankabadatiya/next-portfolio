@@ -12,7 +12,7 @@ export default function Home() {
   setInterval(function () { setProfession("MERN Stack Developer") }, 6000);
   return (<>
     <section className="home" id="home">
-    <Particles width="100vw" style={{position:"absolute", top:0, left:0, zIndex:0}} params={{
+    <Particles width="100vw" style={{position:"absolute", top:0, left:0}} params={{
             "particles": {
               "number": {
                 "value": 60,

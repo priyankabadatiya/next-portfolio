@@ -2,11 +2,11 @@ var I = require('react-fontawesome');
 
 export default function aboutme() {
   return (
-    <section className="services" id="services">
+    <section className="services" id="services" >
       <div className="max-width">
         <h2 className="title">My Projects</h2>
-        <div className="serv-content">
-          <div className="card">
+        <div className="serv-content" >
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://expense-tracker-by-piku.herokuapp.com/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/expenseTracker'><I className="fas fa-code"></I> </a>
@@ -18,7 +18,7 @@ export default function aboutme() {
             </div>
             </a>
           </div>
-          <div className="card">
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://live-code-editor-by-priyanka.netlify.app/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/live-code-editor'><I className="fas fa-code"></I> </a>
@@ -29,7 +29,7 @@ export default function aboutme() {
             </div>
             </a>
           </div>
-          <div className="card">
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://todoapp-by-priyanka.netlify.app/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/todoapp-with-hooks-'><I className="fas fa-code"></I> </a>
@@ -40,7 +40,7 @@ export default function aboutme() {
             </div>
             </a>
           </div>
-          <div className="card">
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://blogapp-by-priyanka.netlify.app/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/blogApp'><I className="fas fa-code"></I> </a>
@@ -51,7 +51,7 @@ export default function aboutme() {
             </div>
             </a>
           </div>
-          <div className="card">
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://priyabadatiya.github.io/GOT/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/GOT'><I className="fas fa-code"></I> </a>
@@ -62,7 +62,7 @@ export default function aboutme() {
             </div>
             </a>
           </div>
-          <div className="card">
+          <div className="card" style={{ zIndex:99}}>
           <a href='https://priyabadatiya.github.io/Events-respo/' style={{color: 'white'}}>
             <div className="box">
             <a href='https://github.com/priyabadatiya/Events-respo'><I className="fas fa-code"></I> </a>

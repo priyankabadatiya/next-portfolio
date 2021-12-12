@@ -3,11 +3,11 @@ import { useRouter } from 'next/router'
 export default function Contacts() {
   const router = useRouter()
   return (
-    <section className={`contact ${router.route == "/contact" ? "full-height" : ''}`} id="contact">
+    <section className={`contact ${router.route == "/contact" ? "full-height" : ''}`} id="contact" >
       <div className="max-width">
         <h2 className="title">Contact me</h2>
         <div className="contact-content">
-          <div className="column left">
+          <div className="column left" style={{ zIndex:99}} >
 
             <div className="icons">
               <div className="row">
@@ -33,7 +33,7 @@ export default function Contacts() {
               </div>
             </div>
           </div>
-          <div className="column right">
+          <div className="column right" style={{ zIndex:99}}>
             <div className="icons">
               <div className="row">
                 <I className="fas fa-linkedin"></I>

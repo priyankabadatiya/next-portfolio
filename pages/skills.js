@@ -1,11 +1,11 @@
 
 export default function Skills(){
     return (
-        <section className="skills" id="skills">
+        <section className="skills" id="skills" style={{ zIndex:99}}>
         <div className="max-width">
           <h2 className="title">My skills</h2>
           <div className="skills-content">
-            <div className="column left">
+            <div className="column left" style={{ zIndex:99}}>
               <div className="text">My skills & experiences.</div>
               <p>
                 I am currently learning from curriculum of AltCampus.
