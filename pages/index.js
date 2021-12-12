@@ -3,7 +3,7 @@ import Aboutme from './about'
 import Projects from './projects'
 import Skills from './skills'
 import Contacts from './contact'
-import Particles from 'react-particles-js';
+import Particles from "react-tsparticles";
 var I = require('react-fontawesome');
 
 export default function Home() {
