@@ -1,13 +1,19 @@
 var I = require('react-fontawesome');
 import { useRouter } from 'next/router'
+import Head from 'next/head'
+
 export default function Contacts() {
   const router = useRouter()
-  return (
+  return (<>
+    <Head>
+      <title>Priyanka Badatiya | Contact</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <section className={`contact ${router.route == "/contact" ? "full-height" : ''}`} id="contact" >
       <div className="max-width">
         <h2 className="title">Contact me</h2>
         <div className="contact-content">
-          <div className="column left" style={{ zIndex:99}} >
+          <div className="column left" style={{ zIndex: 99 }} >
 
             <div className="icons">
               <div className="row">
@@ -33,7 +39,7 @@ export default function Contacts() {
               </div>
             </div>
           </div>
-          <div className="column right" style={{ zIndex:99}}>
+          <div className="column right" style={{ zIndex: 99 }}>
             <div className="icons">
               <div className="row">
                 <I className="fas fa-linkedin"></I>
@@ -57,6 +63,6 @@ export default function Contacts() {
           </div>
         </div>
       </div>
-    </section>
+    </section></>
   )
 }

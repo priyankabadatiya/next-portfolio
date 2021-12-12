@@ -1,6 +1,12 @@
 import Img from "next/image"
+import Head from 'next/head'
+
 export default function Aboutme(){
-    return (
+    return (<>
+    <Head>
+      <title>Priyanka Badatiya | About</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
         <section className="about" id="about" >
         <div className="max-width">
           <h2 className="title">About me</h2>
@@ -20,5 +26,6 @@ export default function Aboutme(){
           </div>
         </div>
       </section>
+      </>
     )
 }
