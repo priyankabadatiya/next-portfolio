@@ -12,16 +12,7 @@ export default function Home() {
 
   setInterval(function () { setProfession("MERN Stack Developer") }, 6000);
   return (<>
-    <Head>
-      <title>Priyanka Badatiya | Home</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta name="title" content="Priyanka Badatiya" />
-      <meta name="description" content="Web Developer" />
-      <meta name="keywords" content="Full Stack, MERN Stack" />
-      <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="language" content="English"/>
-    </Head>
+    
     <section className="home" id="home">
       <Particles width="100vw" style={{ position: "absolute", top: 0, left: 0 }} params={{
         "particles": {
@@ -158,5 +149,15 @@ export default function Home() {
     <Projects />
     <Skills />
     <Contacts />
+    <Head>
+      <title>Priyanka Badatiya | Home</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="title" content="Priyanka Badatiya" />
+      <meta name="description" content="Web Developer" />
+      <meta name="keywords" content="Full Stack, MERN Stack" />
+      <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English"/>
+    </Head>
   </>)
 }
