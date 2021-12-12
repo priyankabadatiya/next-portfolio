@@ -9,10 +9,10 @@ export default function Aboutme(){
             </div>
             <div className="column right">
               <div className="text">
-                I am Priyanka and I'm a <span className="typing-2"></span>
+               {" I am Priyanka and I'm a"} <span className="typing-2"></span>
               </div>
               <p>
-            Full/MERN Stack Developer. I had Graduated with a Bachelor's degree in Computer Science Engineering. Currently, I am learning Full Stack Web Developement at AltCampus. 
+            {"Full/MERN Stack Developer. I had Graduated with a Bachelor's degree in Computer Science Engineering. Currently, I am learning Full Stack Web Developement at AltCampus."} 
               </p>
               <a href="#">Download Resume</a>
             </div>

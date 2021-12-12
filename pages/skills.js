@@ -10,7 +10,7 @@ export default function Skills(){
               <p>
                 I am currently learning from curriculum of AltCampus.
               </p>
-              <a href="https://altcampus.school/" target="_blank">AltCampus</a>
+              <a href="https://altcampus.school/" target="_blank" rel="noreferrer">AltCampus</a>
             </div>
             <div className="column right">
               {["HTML, CSS, JavaScript","MongoDB, Express, React, Node", "Nextjs, Tailwind"].map(el=>{

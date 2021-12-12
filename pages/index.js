@@ -11,7 +11,7 @@ export default function Home() {
 
   setInterval(function () { setProfession("MERN Stack Developer") }, 6000);
   return (<>
-    <section class="home" id="home">
+    <section className="home" id="home">
     <Particles width="100vw" style={{position:"absolute", top:0, left:0, zIndex:0}} params={{
             "particles": {
               "number": {
@@ -130,17 +130,17 @@ export default function Home() {
               "background_size": "cover"
             }
           }} />
-      <div class="max-width">
+      <div className="max-width">
         
-        <div class="home-content"  style={{ zIndex:99}}>
+        <div className="home-content"  style={{ zIndex:99}}>
           
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2"><span>P</span>riyanka <span>B</span>adatiya</div>
-          <div class="text-3">And I'm a
-            <p class="line-1 anim-typewriter">{proffesion}</p>
+          <div className="text-1">Hello, my name is</div>
+          <div className="text-2"><span>P</span>riyanka <span>B</span>adatiya</div>
+          <div className="text-3">{"And I'm a"}
+            <p className="line-1 anim-typewriter">{proffesion}</p>
 
           </div>
-          <a href="https://github.com/priyabadatiya" target="_blank"  ><I className="fas fab fa-github"></I> Github</a>
+          <a href="https://github.com/priyabadatiya" target="_blank" rel="noreferrer"  ><I className="fas fab fa-github"></I> Github</a>
         </div>
       </div>
     </section>
