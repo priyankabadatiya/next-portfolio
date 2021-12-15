@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Header() {
   const [logo, setLogo] = useState("P");
   useEffect(() => {
-    setInterval(function () { setLogo(logo == "P" ? "B" : "P") }, 4500);
+    setTimeout(() =>  setLogo(logo == "P" ? "B" : "P") , 4500);
   }, [logo])
   return (
     <nav className="navbar">
