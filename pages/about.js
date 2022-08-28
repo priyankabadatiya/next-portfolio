@@ -19,7 +19,7 @@ export default function Aboutme(){
                {" I am Priyanka and I'm a"} <span className="typing-2"></span>
               </div>
               <p>
-            {"Full/MERN Stack Developer. I had Graduated with a Bachelor's degree in Computer Science Engineering. Currently,I am working on Oneboard and Learned Full Stack Web Developement at AltCampus."} 
+            {"Full/MERN Stack Developer. I had Graduated with a Bachelor's degree in Computer Science Engineering. Currently, I am working at Oneboard and Learned Full Stack Web Developement at AltCampus."} 
               </p>
               <a href="/Priyanka_Badatiya.pdf" download>Download Resume</a>
             </div>
